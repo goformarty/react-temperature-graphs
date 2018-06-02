@@ -22,7 +22,7 @@ export default class Searchbar extends Component {
 		return (
 			<form onSubmit={this.onFormSubmit} className="input-group">
 				<input 
-					placehold er="Get a five-day forecast in your favourite city"
+					placeholder="Get a five-day forecast in your favourite city"
 					className="form-control"
 					value={this.state.term}
 					onChange={this.onInputChange}
